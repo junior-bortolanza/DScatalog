@@ -5,7 +5,7 @@ import java.time.Instant;
 
 public class StandardError implements Serializable {
 
-    private Instant timestant;
+    private Instant timestamp;
     private Integer status;
     private String error;
     private String message;
@@ -13,12 +13,12 @@ public class StandardError implements Serializable {
 
     public StandardError(){}
 
-    public Instant getTimestant() {
-        return timestant;
+    public Instant getTimestamp() {
+        return timestamp;
     }
 
-    public void setTimestant(Instant timestant) {
-        this.timestant = timestant;
+    public void setTimestamp(Instant timestant) {
+        this.timestamp = timestant;
     }
 
     public Integer getStatus() {
